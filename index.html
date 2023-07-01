@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GatePassSystem</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+<body div class="demo"
+    style="background-color:#0e86fe; background-image: url('https://rubik.blog/portfolio/wp-content/uploads/sites/2/2016/08/Raymond-Banners-Header-June-2020_2.png'); 
+  background-repeat: no-repeat;
+  
+  
+  background-color: #cccccc;">
+</div>
+    
+    <div class="header" id="myHeader">
+        <nav>
+            <img class="logo" src="https://seekvectorlogo.net/wp-content/uploads/2019/03/raymond-fine-fabrics-vector-logo.png" alt="logo not found">
+            <h2 class="up">Welcome to my company</h2>
+        </div>
+</nav>
+
+    <h4>VISITOR INFOMATION</h4><br>
+    <!-- <form action="backend.php"> -->
+        <form action="gatepass_card.html" class="background-color">
+            <label class="change_color"  for="fname">Full name:</label><br>
+            <input type="text" size="25" id="name" name="name" placeholder="Enter here"><br><br>
+            
+            <label class="change_color" for="cname">Company representing:</label><br>
+            <input type="text" size="25" id="cname" name="cname" placeholder="Ex: Raymond"><br><br>
+            <label class="change_color" for="rname">Reason for visit:</label><br>
+            <input type="text" size="25" id="rname" name="rname" placeholder="Enter here"><br><br>
+            <label class="change_color" for="vname">Is your vehicle parked on side:<br>
+            <input type="text" size="25" id="vname" name="vname" placeholder="Yes / No"><br><br>
+            <label class="change_color" for="pname">License plate number:</label><br>
+            <input type="text" size="25" id="pname" name="pname" placeholder="Enter License No."><br><br>
+            <label class="change_color" for="mname">Mobile number:</label><br>
+            <input type="text" size="25" id="mname" name="mname" placeholder="Enter phone No."><br><br>
+
+
+
+
+        <a href="gatepass_card.html"> <button>Generate</button></a>
+              
+          </form> 
+    <script>
+        
+        $('#name').keyup(function (){
+    $('#myname').val($(this).val()); // <-- reverse your selectors here
+});
+$('#myname').keyup(function (){
+    $('#name').val($(this).val()); // <-- and here
+});  
+    </script>
+</body>
+</html>

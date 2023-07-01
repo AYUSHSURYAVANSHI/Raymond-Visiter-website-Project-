@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* nav{
+    background-color: aqua;
+    height: 12vh;
+} */
+
+.my-img{
+    height: 73px;
+    width: 55px;
+}
+
+.text-center{
+    margin:0  476px;
+    padding: 0px 0px;
+    
+}
+
+
+
+
+
+/* Style the header */
+.header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+  }
+  
+  .header h2{
+    display: inline-block;
+    padding: inherit;
+   
+    
+  }
+  /* Page content */
+  .content {
+    padding: 16px;
+    
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+  /* form */
+  form{
+    margin:0px 52px;
+  }
+  h4{
+    margin: 0px 48px;
+  }
+
+  
+  .demo {
+    filter: brightness(100%);
+    /* background-color: #0c16d8; */
+
+ }
+.change_color{
+  background-color: rgb(197, 138, 27);
+}
+
+ .background-color{
+    /* background-color: #4fb06d; */
+    width: 200px;
+    height: 380px;
+ }
+ .logo{
+  height: 41px;
+width: 104px;
+ }
+
+ /* responsive code */
+ @media  screen and (max-width:953px){
+  body{
+     background-image: url('backgroundImage.png');
+     height:100%;
+     width:100%;
+  }
+}
+.up h2{
+  padding: inherit;
+}
+.demo background-image{
+  background-size:contain;
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
